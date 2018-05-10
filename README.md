@@ -15,8 +15,6 @@ To get the rotation angle:
 which gives
 ans =
 0.0042   -0.4334    4.3967   -2.1677
-
 This means that target rotation can be decomposed as 
 R(2.58,2.18,3.98)=R(z,0.0042)R(m,-0.4334)R(z,4.3967)R(m,-2.1677)    
-
 For more details on rotation decomposition, users are referred to our recent paper. 
