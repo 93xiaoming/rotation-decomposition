@@ -1,6 +1,6 @@
 # Rotation decomposition
 
-The program "Decomp4_opt" provides four-step rotation decomposition of a given target rotation with shortest length (up to certain accuracy) with two fixed axes, z=[0,0,0], m=[sin(Theta)cos(Phi), sin(Theta)sin(Phi), cos(Theta)], where 'Theta' and 'Phi' to be defiend by users.
+The program "Decomp4_opt" provides four-step rotation decomposition of a given target rotation with shortest length (up to a golobal phase, and certain accuracy) with two fixed axes, z=[0,0,0], m=[sin(Theta)cos(Phi), sin(Theta)sin(Phi), cos(Theta)], where 'Theta' and 'Phi' to be defiend by users.
 For example, for target rotation R(2.58, 2.18, 3.98), and m axis with Theta=0.76, Phi=0.10,  we want the 'z' rotation have positive rotation angle, 'm' rotation have negative rotation angle. One should input 
 
     >> x=Decomp4_opt(2.58, 2.18, 3.98, 0.76, 0.10, 'p','m')
